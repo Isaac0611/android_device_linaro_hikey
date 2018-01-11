@@ -38,7 +38,8 @@ PRODUCT_RUNTIMES := runtime_libart_default
 PRODUCT_PACKAGES += audio.a2dp.default \
 		    audio.usb.default \
 		    audio.r_submix.default \
-		    tinyplay
+		    tinyplay \
+                    tinycap
 
 PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-impl \
